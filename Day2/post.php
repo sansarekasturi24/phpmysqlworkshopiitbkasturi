@@ -10,6 +10,7 @@ subject5:<input type='text' name='sub5'><br>
 </form>
 </html>
 <?php
+include("connect.php");
 @$a=$_POST['name'];
 @$b=$_POST['sub1'];
 @$c=$_POST['sub2'];
@@ -19,7 +20,7 @@ subject5:<input type='text' name='sub5'><br>
 @$omarks=$b+$c+$d+$e+$f ;
 @$tmarks=500;
 @$p= ($omarks*100)/$tmarks ;
-if($a)
+//if($a)
 {
 	echo"Name of student :".$a."<br>";
 	echo"Subject 1:".$b."<br>";
