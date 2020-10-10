@@ -8,6 +8,7 @@ Subject 3  : <input type='number' name='sub3' ><p>
 Subject 4  : <input type='number' name='sub4' ><p>
 Subject 5  : <input type='number' name='sub5' ><p>
 <input type='submit' name="submit" value='Submit marks'>
+
 </form>
 </html>
 
